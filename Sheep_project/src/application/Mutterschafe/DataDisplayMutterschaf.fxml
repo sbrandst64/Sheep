@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ContextMenu?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="390.0" prefWidth="886.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Mutterschafe.MutterschafController">
+   <children>
+      <TableView fx:id="mutterschafAnsicht" tableMenuButtonVisible="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <columns>
+            <TableColumn fx:id="schafBezTable" editable="true" onEditCommit="#column_Commit" prefWidth="125.0" text="Mutterschaf_bez" />
+            <TableColumn fx:id="farbeTable" onEditCommit="#column_Commit" prefWidth="77.0" text="Farbe" />
+            <TableColumn fx:id="standortTable" minWidth="0.0" onEditCommit="#column_Commit" prefWidth="109.0" text="Weide" />
+            <TableColumn fx:id="sheeptypTable" onEditCommit="#column_Commit" prefWidth="110.0" text="Schaftyp" />
+            <TableColumn fx:id="gebDateTable" onEditCommit="#column_Commit" prefWidth="99.0" text="Geb_Datum" />
+            <TableColumn fx:id="mutterTable" onEditCommit="#column_Commit" prefWidth="69.0" text="Mutter" />
+            <TableColumn fx:id="vaterTable" minWidth="0.0" onEditCommit="#column_Commit" prefWidth="122.0" text="Vater" />
+            <TableColumn fx:id="gebAnzahlTable" onEditCommit="#column_Commit" prefWidth="110.0" text="Anzahl Geburten" />
+            <TableColumn fx:id="infoTable" prefWidth="179.0" text="Sonstige Infos" />
+         </columns>
+         <contextMenu>
+            <ContextMenu>
+               <items>
+                  <MenuItem fx:id="edit" mnemonicParsing="false" onAction="#edit_Clicked" text="Bearbeiten" />
+                  <MenuItem fx:id="delete" mnemonicParsing="false" onAction="#delete_Clicked" text="Löschen" />
+               </items>
+            </ContextMenu>
+         </contextMenu>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
+   </children>
+</AnchorPane>

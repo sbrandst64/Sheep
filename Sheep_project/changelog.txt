@@ -1,0 +1,16 @@
+
+++Hinfügen von Mutterschaf mit Bezeichnung: testmum und Farbe: 4tzw5
+++Hinfügen von Widder mit Bezeichnung: testWidder und Farbe: test123
+++Hinfügen von Mutterschaf mit Bezeichnung: Mutterschaf343 und Farbe: ollalaa
+++Hinfügen von Lamm mit Bezeichnung: tessssttLamm und Farbe: klasan23
+//Änderte von Schaf: 
+buchi2 die Spalte: 
+Farbe von
+ BuchiOhrl zu : BuciOhrl
+//Änderte von Schaf: 
+buchi2 die Spalte: 
+Farbe von
+ BuchiOhrl zu : BuciOhrl
+--Löschte Mackerl: klasan2543
+--Löschte Mackerl: BuchiOhrl
+--Löschte Mackerl: erwin

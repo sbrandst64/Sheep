@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="233.0" prefWidth="479.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ModifyTables.OhrmackerlController">
+   <children>
+      <ListView fx:id="mackerlListView" layoutX="273.0" layoutY="32.0" prefHeight="188.0" prefWidth="200.0" />
+      <TextField fx:id="addMackerlTextfield" layoutX="42.0" layoutY="88.0" />
+      <Label layoutX="42.0" layoutY="59.0" text="hinzufügen neuer Ohrmackerl" />
+      <Button fx:id="addMackerlButton" layoutX="79.0" layoutY="120.0" mnemonicParsing="false" onMouseClicked="#addMackerlClicked" text="hinzufügen" />
+      <Label layoutX="321.0" layoutY="14.0" text="Verfügbare Mackerl" />
+      <Label layoutX="42.0" layoutY="175.0" text="entfernen eines Ohrmackerl' s------&gt;" />
+      <Button fx:id="entfMackerlButton" layoutX="83.0" layoutY="192.0" mnemonicParsing="false" onMouseClicked="#entfSelectedMackerl" text="entfernen" />
+   </children>
+</AnchorPane>
